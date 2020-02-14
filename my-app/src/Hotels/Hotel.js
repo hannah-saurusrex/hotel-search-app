@@ -1,7 +1,7 @@
 import React from 'react';
 import Perk from './Perk';
 import RoomsLeft from './RoomsLeft';
-import BestsellerFlat from './BestsellerFlag';
+import BestsellerFlag from './BestsellerFlag';
 
 /* functional component 
     - accepts the data model for a single hotel as a prop
@@ -39,7 +39,7 @@ var Hotel = props => (
                 </div>
             </div>
         </div>
-        <BestsellerFlat isBestseller={props.hotel.isBestseller} />
+        <BestsellerFlag isBestseller={props.hotel.isBestseller} />
     </li>
 );
 
