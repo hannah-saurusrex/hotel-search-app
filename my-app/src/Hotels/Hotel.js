@@ -1,4 +1,5 @@
 import React from 'react';
+import Perk from './Perk';
 import BestsellerFlat from './BestsellerFlag';
 
 /* functional component 
