@@ -13,7 +13,8 @@ var renderHotel = hotel => <Hotel key={hotel.id} hotel={hotel} />;
 
 /* functional component
     - accepts `hotels` data model as a prop
-    - maps over the array of hotel data, calling the `renderHotel` callback function to render a `Hotel` component for each item in the array
+    - maps over the array of hotel data, calling the `renderHotel` callback function 
+        to render a `Hotel` component for each item in the array
 */
 var HotelsList = props => {
     var filterCallback = hotel => {
