@@ -16,10 +16,10 @@ var Filter = props => {
         <li className='filter'>
             <span>
                 <input 
-                type='checkbox' 
-                checked={props.isChecked}
-                onChange={onChange}
-                className='filter__checkbox' 
+                    type='checkbox' 
+                    checked={props.isChecked}
+                    onChange={onChange}
+                    className='filter__checkbox' 
                 />
                 {props.filter.display}
             </span>

@@ -12,10 +12,10 @@ var renderFilter = filter => {
     var isChecked = props.selectedFilters.includes(filter.key);
     return (
         <Filter 
-        key={filter.key} 
-        filter={filter} 
-        isChecked={isChecked}
-        toggleFilter={props.toggleFilter} 
+            key={filter.key} 
+            filter={filter} 
+            isChecked={isChecked}
+            toggleFilter={props.toggleFilter} 
         />
     );
 };

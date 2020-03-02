@@ -6,7 +6,7 @@ export var filterOptions = [
   { display: "Pets Allowed", key: "allowsPets" },
   { display: "Room Service", key: "hasRoomService" },
   { display: "Fitness Centre", key: "hasFitnessCenter" }
-]
+];
 
 export var hotels = [
     {
@@ -45,7 +45,7 @@ export var hotels = [
     },
     {
       id: 125,
-      name: "RIU Plaza New York Times Square",
+      name: "RIU Plaza Times Square NYC",
       rating: 8.7,
       reviewCount: 5301,
       pricePerNight: 314,

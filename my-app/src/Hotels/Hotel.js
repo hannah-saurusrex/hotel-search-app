@@ -10,9 +10,9 @@ import BestsellerFlag from './BestsellerFlag';
 var Hotel = props => (
     <li className='hotel'>
         <img
-        src={props.hotel.imageSrc}
-        alt="hotel main entrance"
-        className="hotel__image"
+            src={props.hotel.imageSrc}
+            alt="hotel main entrance"
+            className="hotel__image"
         />
         <div className='hotel__text'>
             <div className='hotel__header'>
@@ -21,7 +21,7 @@ var Hotel = props => (
             </div>
             <div className='hotel__main'>
                 <div>
-                    <span>{props.hotel.reviewCount} review</span>
+                    <span>{props.hotel.reviewCount} reviews</span>
                     <Perk perk='Free cancellation' hasPerk={props.hotel.hasFreeCancellation} />
                     <Perk perk='Breakfast included' hasPerk={props.hotel.includesBreakfast} />
                     <Perk perk='Onsite parking' hasPerk={props.hotel.hasParking} />
